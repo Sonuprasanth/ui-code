@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            login portal
+        </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            body{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Result login portal</h1>
+        <form> 
+            <label for="email">Email:</label>
+            <input type="text"id="email"name="email"placeholder="Enter your Email">
+            <label for="password">Password:</label>
+            <input type="password"id="password"name="password"placeholder="Enter your Password">
+            <input type="button"onclick="alert('successfully loged in to result webportal')"value="submit">
+            <input type="Register">
+        </form>
+    </body>
+</html>

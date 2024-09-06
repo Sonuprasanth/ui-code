@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title> Registration form</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+       <script src="/register.js"></script>
+     </script>
+        <form id="registration form" action="result.html" method="get">
+            <div class="container"></div>
+                <div class="form-box"></div>
+                    <div form="action"id="form"type=form></div>
+                    <h1 class="font-effect:neon;"> Welcome to Registration form</h1>  
+        <div>
+        <label for="firstname">Firstname :</label>
+        <input type="text"name="firstname"id="firstname"placeholder="Enter your name"value="Sonu" required>
+    </div>
+        <div>
+          <label for="lastname">Lastname :</label> 
+          <input type="text"name="lastname"id="lastname"placeholder="Enter your lastname"value="Prasanth" required>
+        </div>
+        <div >
+          <label for="DOB">DOB :</label>
+          <input type="Date"name="date"id="date">
+         </div>
+         <div>
+          <label >Gender :</label>
+          <label type="male">Male</label>
+           <input type="radio"name="gender"value="male">
+          <label type="female">Female</label>
+          <input type="radio"name="gender"value="female">
+          <label type="other">Other</label>
+          <input type="radio"name="gender"value="other">
+         </div>
+       <div>
+        <label for="email">Email :</label>
+        <input type="email"name="email"placeholder="Enter your email"value="sonuprasanth61@gmail.com"required>
+       </div>
+       <div>
+        <label for="password">Password :</label>
+        <input type="password"name="password"placeholder="Enter your password"required>
+       </div>
+       <div>
+        <label type="phone.number">Phone no :</label>
+        <input type="tel"name="phone number"id="phone number"  placeholder="893-915-1839"required>
+       </div>
+       <div>
+        <label for="Datetime-local">Datetime-local :</label>
+        <input type="Datetime-local"name="datetime-local"id="datetime-local">
+       </div>
+       
+       <div>
+        <label for="department">Department :</label>
+        <select name="department">
+        <option value="select">select</option>
+        <option value="EEE">EEE</option>
+         <option value="ECE">ECE</option>
+         <option value="CSC">CSC</option>
+         <option value="IT">IT</option>
+         <option value="MECH">MECH</option>
+        </select>
+       </div>
+       <div>
+        <label for="image">Image :</label>
+        <input type="file"name="image"id="image"accept="image/*">
+       </div>
+       <img src="image4.jpg.jpg"alt="baby looking cute" photo width="200px">
+       <div>
+        <label for="resume">Resume :</label>
+        <input type="file" name="file_upload">
+       </div>
+       <div>
+        <label type="age">Age :</label>
+        <input type="number"name="age"id="age"placeholder="Enter your age"required>
+       </div>
+       <div>
+        <label type="url">Url :</label>
+        <input type="url"name="url"id="url"placeholder="https://www.example.com"required>
+       </div>
+       <div>
+        <label type="googlesearch">Gsearch :</label>
+        <input type="gsearch"name="gsearch"id="search"placeholder="you can search"required>
+       </div>
+       <div>
+        <label type="feedback">Feedback :</label>
+        <textarea name="message"rows="4"col="6" placeholder="you can write your feedback for your valuable message"></textarea>
+      </div>
+       <div>
+        <label type="date">select a date :</label>
+        <input type="date"name="date"id="date"  placeholder="Enter your date"required>
+       </div>
+      
+       <div>
+        <label type="month">Month :</label>
+        <input type="month"name="month"id="month"placeholder="Enter your month"required>
+       </div>
+       <div>
+        <label type="week">week :</label>
+        <input type="week"name="week"id="week"required>
+       </div>
+       <div>
+        <label type="programming">programming :</label>
+        <label>python</label>
+        <input type="checkbox"name="programming"id="python">
+        <label>c</label>
+        <input type="checkbox"name="programming"id="c">
+        <label>java</label>
+        <input type="checkbox"name="programming"id="java">
+        <label>c++</label>
+        <input type="checkbox"name="programming"id="c++">
+    </div>
+       <video width="500" height="300" controls>
+        <source src="video.demo.mp4" type="video/mp4">
+      </video>
+      <audio id="myAudio" controls>
+        <source src="video.demo.mp4" type="audio/mp3">
+        
+      </audio>
+      
+       <div>
+        <button type="reset">Reset</button>
+        <input type="submit"value="Register"onclick="getINFO()">  
+       </div>
+            
+     
+     
+    </div><b>
+       <p>Thanks for registration we will contact you later</p>
+       <address>
+        phone no:8939151839<br>
+        city:chennai
+        pin.code:606708
+     </b></address>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+    
+}
+body{
+    margin: 50px;
+    background-color:bisque;
+    background-image: url(AKZFyxC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style:oblique;
+}
+.container{
+    box-sizing: content-box;
+    margin-top: 150px;
+    max-width: 500px;
+    width: 80%;
+    background-color: azure;
+    padding: 50px;
+    align-items: center;
+    border-style: dashed;
+    border-radius: 60px;
+    margin-left: 400px;
+    background-image: url(OIP\ \(1\).jpeg);
+}
+div{
+    padding: 10px;
+    align-items: center;
+}
+

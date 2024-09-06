@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Input with Show Button</title>
+</head>
+<body>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<button onclick="togglePasswordVisibility()">Show Password</button>
+
+<script>
+function togglePasswordVisibility() {
+  var passwordInput = document.getElementById("password");
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+    document.querySelector("button").textContent = "Hide Password";
+  } else {
+    passwordInput.type = "password";
+    document.querySelector("button").textContent = "Show Password";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            login portal
+        </title>
+        <style>
+            *{
+                margin: 5px;
+                padding: 0;
+            
+            }
+            body{
+                /*text-align: center;*/
+                margin: 0;
+                background-image: url(result-3236285_1280.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                justify-content: center;
+                min-height: 100vh;
+                font-family:Arial, Helvetica, sans-serif;
+                display:flex;
+                line-height: 1;
+                
+            }
+            
+            .main-login{
+                border-radius: 15px;
+                padding: 20px;
+                width: 300px;
+                background-color:azure;
+                margin:200px;
+                
+            }
+            .main-register{
+                background-color:darkkhaki;
+            }
+            div{
+                padding: 5px;
+            }
+           
+            label{
+               margin: 5px;
+                width: 10px;
+                display:inline; 
+                 font-size: 13px; 
+                 font-weight: 200px;
+                 text-align: center;          
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="email"] {
+                padding: 5px;
+    font-size: 13px;
+    width: 200px;
+    text-align: center
+            }
+            h1, h2{
+                font-size:25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            input[type="button"] {
+            padding: 5px 10px;
+            border-radius: 3px;
+            border: none;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            
+        }
+        .login-box {
+            margin:5px;
+        }
+        
+        </style>
+    </head>
+    <body>
+
+        <div class="main-login">
+            <h1> Student login portal</h1>
+            <form>
+                <div class="login-box">
+                    <div>
+                        <label for="email"> Student Email:</label>
+                        <input type="text" id="email" name="email"
+                            placeholder="Enter your Email"><br></div>
+                    <div>
+                        <label for="password"> Student Password:</label>
+                        <input type="password" id="password" name="password"
+                            placeholder="Enter your Password"><br></div>
+                    <div>
+                        <input type="button"
+                            onclick="alert('successfully loged in to result webportal')"
+                            value="Submit">
+                        <input type="button"
+                            onclick="alert('Register your details')"
+                            value="Register"></div>
+                </div>
+            </form>
+        </div>
+        <div class="main-login main-register">
+            <form>
+                <div>
+                    <h2>Admin Login portal</h2>
+                    <div>
+                        <label for="email">Admin Email:</label>
+                        <input type="text" id="email" name="email"
+                            placeholder="Enter your Email"><br>
+                    </div>
+                    <div>
+                        <label for="password">Admin password:</label>
+                        <input type="password" is="password" name="password"
+                            placeholder="Enter your Password"><br>
+                    </div>
+                    <div>
+                        <input type="button"
+                            onclick="alert('successfully loged in to result webportal')"
+                            value="Login">
+                        <input type="button"
+                            onclick="alert('Register your details')"
+                            value="Register">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
